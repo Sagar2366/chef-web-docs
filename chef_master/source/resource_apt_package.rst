@@ -286,7 +286,7 @@ Notifications, via an implicit name:
 Examples
 =====================================================
 
-The following examples demonstrate various approaches for using apt_update in recipes.
+The following examples demonstrate various approaches for using apt_package in recipes.
 
 **Install a package using package manager**
 
