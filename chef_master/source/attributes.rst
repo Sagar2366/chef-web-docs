@@ -99,7 +99,7 @@ Notes:
 * Many attributes are maintained in the chef-repo for environments, roles, and cookbooks (attribute files and recipes)
 * Many attributes are collected by Ohai on each individual node at the start of every chef-client run
 * The attributes that are maintained in the chef-repo are uploaded to the Chef server from the workstation, periodically
-* The chef-client will pull down the node object from the Chef server (which contains the attribute data from the previous chef-client run), after which all attributes (except ``normal`` are reset)
+* The chef-client will pull down the node object from the Chef server (which contains the attribute data from the previous chef-client run), after which all attributes (except ``normal`` )are reset
 * The chef-client will update the cookbooks on the node (if required), which updates the attributes contained in attribute files and recipes
 * The chef-client will update the role and environment data (if required)
 * The chef-client will rebuild the attribute list and apply attribute precedence while configuring the node
